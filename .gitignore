@@ -1,0 +1,55 @@
+# ========================
+# Large Data Files (DO NOT PUSH — too large for GitHub)
+# ========================
+*.csv
+*.tsv
+*.parquet
+*.feather
+IN_youtube_trending_data.csv
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+.venv/
+venv/
+env/
+ENV/
+.env
+*.log
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.DS_Store
+Thumbs.db
+
+# ========================
+# ML Model Artifacts (optional — re-train locally)
+# ========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# ========================
+# IDE / OS
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
